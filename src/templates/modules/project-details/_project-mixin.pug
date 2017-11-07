@@ -1,0 +1,18 @@
+-
+    var companies = [{name: 'dhillion'},
+                     {name: 'nike'},
+                     {name: 'dymo'},
+                     {name: 'honda'},
+                     {name: 'bajwa'},
+                     {name: 'blinds'},
+                     {name: 'protilla'},
+                     {name: 'starbucks'}
+                    ]
+
+mixin project-images(count, company)
+   .flex-container
+        - for(var i = 1; i <= count; i++)
+              div(class="project-img project--img"+ i +"" data-company=company)
+
+
+
