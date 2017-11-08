@@ -54,7 +54,7 @@ a {
 
 /* line 40, src/scss/1-base/_typography.scss */
 .text--sMedium {
-  font-size: 1.4rem; }
+  font-size: 1.9rem; }
   @media (min-width: 1024px) {
     /* line 40, src/scss/1-base/_typography.scss */
     .text--sMedium {
@@ -62,7 +62,7 @@ a {
 
 /* line 49, src/scss/1-base/_typography.scss */
 a {
-  font-size: 1.2rem;
+  font-size: 1.65rem;
   text-decoration: none; }
   @media (min-width: 1024px) {
     /* line 49, src/scss/1-base/_typography.scss */
@@ -224,18 +224,17 @@ nav {
     /* line 1, src/scss/4-pages/_about.scss */
     .about {
       width: 55%;
-      padding-top: 1rem;
-      margin: 0; } }
-  /* line 13, src/scss/4-pages/_about.scss */
+      padding-top: 1rem; } }
+  /* line 12, src/scss/4-pages/_about.scss */
   .about a {
     color: gray; }
-  /* line 17, src/scss/4-pages/_about.scss */
+  /* line 16, src/scss/4-pages/_about.scss */
   .about p {
     margin-bottom: 1.25rem; }
-    /* line 20, src/scss/4-pages/_about.scss */
+    /* line 19, src/scss/4-pages/_about.scss */
     .about p:nth-child(3) {
       margin-bottom: 2.5rem; }
-  /* line 26, src/scss/4-pages/_about.scss */
+  /* line 25, src/scss/4-pages/_about.scss */
   .about .social a {
     margin-left: 1.75rem; }
 
